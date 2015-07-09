@@ -1,0 +1,785 @@
+body{
+	font-family: 'open_sansregular';
+    font-weight: normal;
+    font-style: normal;
+    background:url(../images/bod-back.jpg);
+}
+
+/* COMPOUND STYLES */
+
+header,footer, nav{
+    width:960px;
+    margin:0 auto;
+
+}
+section#gnav, section#fnav{
+    background-color:#1A9948;
+}
+
+ul li{
+    list-style-type:none;
+}
+
+main h1,main h2{
+    font-family: 'alpha_echoregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+    font-family: 'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav a, footer a {
+    color:#FFF;
+    display:block;
+}
+
+
+/* HEADER STYLES */
+
+header{
+    padding-bottom:15px;
+}
+
+header h1{
+    background-image:url(../images/logo.png);
+    height:94px;
+    width:356px;
+    text-indent:-9999px;
+    float:left;
+}
+
+header h1 a{
+    display:block;
+    height:94px;
+    width:356px;
+}
+
+header h2{
+    padding-bottom:10px;
+}
+
+header section.social h3{
+    display:inline;
+    padding-right:10px;
+}
+
+section.social{
+    width:300px;
+    float:right;
+    padding:10px;
+}
+
+
+
+/* NAV STYLES */
+
+section#gnav{
+    height:40px;
+    padding-bottom:10px;
+}
+
+section#gnav nav{
+    width:960px;
+    margin:0 auto;
+}
+nav ul li{
+    float:left;
+}
+
+nav li{
+    font-size:20px;
+    padding-right:10px;
+}
+
+nav ul#global li a{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    height:30px;
+    padding:10px;
+}
+
+nav ul#global li a:hover{
+    background-color:#FFF;
+    color:#1A9948;    
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+#Programs nav ul#global li#gprograms a,
+.Programs nav ul#global li#gprograms a,
+#Learning-Center nav ul#global li#gcenter a,
+.Learning-Center nav ul#global li#gcenter a,
+#Resources nav ul#global li#gresources a,
+.Resources nav ul#global li#gresources a,
+#About nav ul#global li#gabout a,
+#Contact nav ul#global li#gcontact a
+{
+    background-color:#FFF;
+    color:#1A9948;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+
+
+/* MAIN STYLES */
+
+#subnav{
+    background-color:#FFF;
+    width:960px;
+    margin:0 auto;
+    height:40px;
+}
+
+#subnav li a{
+    color:#000;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    font-size:18px;
+    font-family: 'open_sanslight';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#subnav li a:hover{
+    color:#DA5B26;
+    text-decoration:none;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#Preschool #subnav li#preschool a,
+#Daycare #subnav li#daycare a,
+#Summer-Camp #subnav li#summer a,
+#Owners #subnav li#owners a,
+#Teachers #subnav li#educate a,
+#Enrollment #subnav li#enroll a,
+#Tuition-Deals #subnav li#tuition a,
+#Event-Calendar #subnav li#eventc a,
+#Home-Activities #subnav li#activities a,
+#Recommended-Books #subnav li#books a {
+    color:#DA5B26;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.orange{
+    background-color:#DA5B26;
+    height:5px;
+    text-align:center;
+}
+
+main{
+	background-color: #FFF;
+    padding:40px;
+    width:880px;
+    margin:0 auto;
+
+}
+
+main h1{
+    font-size: 42px;
+    color:#1A9948;
+    padding-bottom:10px;
+}
+
+main h1+img{
+    float:left;
+    margin:20px;
+    outline:5px solid #844198;
+}
+
+main h2{
+    font-size:24px;
+    color:#2283C5;
+    padding-bottom:10px;
+}
+
+main h4{
+    font-size:20px;
+    color:#DA5B26;
+    font-family: 'alpha_echoregular';  
+}
+
+main p{
+    font-size:18px;
+    line-height:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+main p.degree{
+    font-size:14px;
+    line-height:20px;
+    padding-bottom:0;
+    color:#1A9948;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Home main h4{
+    clear:left;
+}
+
+#Learning-Center main h2,
+.Learning-Center main h2,
+#Daycare main h2{
+    clear:left;
+}
+
+#Error main img{
+    float:none;
+    margin-left:280px;
+}
+
+#Owners main img{
+    outline:5px solid #844198;
+}
+
+#Programs p{
+    height:200px;
+}
+
+#Programs figure.preschool{
+    clear:left;
+}
+
+#Programs figure{
+    float:left;
+    margin:45px;
+}
+
+#Programs figure:hover{
+    outline:5px solid #844198;
+}
+
+#Search main,
+#Contact main{
+    min-height:500px;
+}
+
+main ul{
+    padding-left:20px;
+}
+
+main ul li{
+    list-style-type:circle;
+    padding-bottom:10px;
+    font-size:16px;
+}
+
+main li a, main p a {
+    color:#DA5B26;
+    text-decoration:none;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+main li a:hover, main p a:hover {
+    color:#DA5B26;
+    text-decoration:underline;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    position:relative;
+}
+
+#next{
+    position:absolute;
+    top:130px;
+    left:5px;
+}
+
+#prev{
+    position:absolute;
+    top:130px;
+    left:825px;
+}
+
+section#slideshow{
+    outline:5px solid #844198;
+    width:720px;
+    margin:0 auto;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+}
+
+#slideshow figure{
+    position:absolute;
+    top:0;
+    left:0;
+    width:720px;
+    height:300;
+}
+
+#slideshow img{
+    display:block;
+    float:right;
+}
+
+#slideshow figcaption{
+    background:#FFF;
+    padding-left:10px;
+    padding-top:10px;
+}
+
+#slideshow h3.button{
+    width:120px;
+    text-align:center;
+    font-size:14px;
+}
+
+.afil{
+    width:720px;
+    padding:10px;
+    margin:0 auto;
+}
+
+.teacher img{
+    padding-left:50px;
+}
+
+.teacher{
+    width:300px;
+    float:left;
+    height:500px;
+    padding:10px;
+    outline: 4px solid #E6D125;
+    margin:45px;
+}
+
+.call{
+    width:225px;
+    height:180px;
+    float:left;
+    margin:20px;
+    margin-top:45px;
+}
+
+.call figcaption{
+    width:225px;
+}
+
+.one{
+    margin-left:65px;
+}
+
+.call h3{
+    font-size:14px;
+    line-height:16px;
+}
+
+.call h3 a{
+    height:30px;
+}
+
+.button a {
+    color:#FFF;
+    background:#DA5B26;
+    padding:10px;
+    display:block;
+    text-decoration:none;
+}
+
+.button a:hover,
+.button a:focus{
+    background-color:#E6D125;
+    color:#000;
+}
+
+.book{
+    width:200px;
+    float:left;
+    padding:10px;
+    height:370px;
+    outline:4px solid #DA5B26;
+    margin:35px;
+}
+
+.monbook{
+    outline:5px solid #844198;
+    width:700px;
+    margin-left:35px;
+}
+
+.monbook img{
+    float:left;
+    padding:10px;
+}
+
+.monbook figcaption{
+   float:right;
+   width:550px;
+   padding:10px;
+}
+
+.act{
+    width:200px;
+    height:300px;
+    float:left;
+    padding:5px;
+    background-color:#DA5B26;
+    margin:40px;
+}
+
+.act figcaption h3{
+    padding-top:10px;
+    color:#FFF;
+}
+
+.act figcaption h3:hover{
+    color:#000;
+}
+
+.act:hover{
+    background-color:#E6D125;
+}
+
+.results article{
+    float:left;
+    padding:10px;
+    width:200px;
+}
+
+#Site-Map main section{
+    padding:20px;
+}
+
+#Site-Map main  h2 a{
+    color:#2283C5;
+    text-decoration:none;
+}
+
+#Site-Map h2 a:hover{
+    text-decoration:underline;
+}
+
+#Site-Map main li{
+    font-size:20px;
+}
+
+#Terms-Privacy main ul li{
+    list-style-type: lower-alpha;
+    line-height:24px;
+}
+
+#Resources main figure{
+    float:left;
+    margin-left:35px;
+}
+
+#Resources main figure:hover{
+    outline:4px solid #E6D125;
+}
+
+.successmessage{
+    background-color:#1A9948;
+    font-family: 'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    color:#FFF;
+}
+
+.errormessage{
+    font-family: 'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    color:#FFF;
+}
+
+
+/* FOOTER STYLES */
+
+section#fnav{
+    padding:10px;
+}
+footer section{
+    float:left;
+    padding:5px 60px;
+    padding-bottom:20px;
+}
+footer section h3{
+    padding-bottom:10px;
+}
+
+footer section li{
+    padding-bottom:5px;
+}S
+
+footer section li{
+    font-size:14px;
+    text-indent:5px;
+}
+
+section#foot_form{
+    margin-top:40px;
+    margin-left:240px;
+}
+
+footer a{
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#E6D125;
+}
+
+#Programs footer  h3#fprograms a,
+.Programs  h3#fprograms a,
+#Learning-Center  h3#fcenter a,
+.Learning-Center  h3#fcenter a,
+#Resources h3#fresources a,
+.Resources  h3#fresources a,
+#About  h3#fabout a,
+#Contact  h3#fcontact a,
+#Preschool  li#fpreschool a,
+#Daycare  li#fdaycare a,
+#Summer-Camp  li#fsummer a,
+#Owners  li#fowners a,
+#Teachers  li#feducate a,
+#Enrollment li#fenroll a,
+#Tuition-Deals  li#ftuition a,
+#Event-Calendar  li#feventcal a,
+#Home-Activities  li#factivities a,
+#Recommended-Books li#fbooks a 
+{
+    color:#E6D125;
+    text-decoration: underline;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+
+section#legal{
+    width:400px;
+    margin:0 auto;
+}
+
+section#legal ul{
+    text-align:center;
+}
+
+div.yellow{
+    height:5px;
+    width:960px;
+    background:#E6D125;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+
+#legal img{
+    margin-left:100px;
+    margin-bottom:10px;
+    padding-left:40px;
+}
+
+#legal li{
+    display:inline;
+    text-align:center;
+    padding:5px;
+}
+
+#legal a{
+    color:#E6D125;
+    text-decoration:none;
+}
+
+#legal a:hover{
+    text-decoration:underline;
+}
+
+/* FORMS STYLES */
+
+form#searchform{
+    width:300px;
+    margin-top:20px;
+    margin-left:730px;
+}
+
+input[value="Search"]{
+    border:none;
+    background-color:#2283C5;
+    color:#FFF;
+    padding:5px;
+  
+}
+
+input[value="Search"]:hover{
+    text-decoration:underline;
+}
+  
+input[name="search"]{
+    border:none;
+    background-color:#2283C5;
+    color:#FFF;
+    padding:5px;
+}
+
+input[value="Submit"]{
+    border:none;
+    background-color:#E6D125;
+    color:#1A9948;
+    text-align:center;
+    padding:5px;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[value="Submit"]:hover{
+    border:none;
+    text-align:center;
+    padding:5px;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration:underline;
+}
+
+input[name="email"]{
+    border:none;
+    padding:5px;
+
+}
+
+
+section#form{
+    background-color:#844198;
+    padding:10px;
+    width:400px;
+    margin-left:240px;
+}
+
+#form img{
+    padding-left:100px;
+}
+
+form#tform label{
+    padding-bottom:5px;
+    color:#E6D125;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+form#tform label,
+form#tform input{
+    display:block;
+    margin-bottom:10px;
+}
+
+form#tform input[type="checkbox"]{
+    display:inline;
+}
+
+form#tform input[value="Submit Form"]{
+    border:none;
+    background-color:#E6D125;
+    padding:10px;
+    font-family:'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    color:#844198;
+}
+
+form#tform input[value="Submit Form"]:hover{
+    text-decoration:underline;
+}
+
+/* CLEAR FIX */
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: block; 
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    zoom: 1; /* for old ie - triger has layout - ie sucks it */
+    }
+
+/* @font-face fonts */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('OpenSans-Italic-webfont.eot');
+    src: url('OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Italic-webfont.woff') format('woff'),
+         url('OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold-webfont.eot');
+    src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Bold-webfont.woff') format('woff'),
+         url('OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alpha_echoregular';
+    src: url('alpha_echo-webfont.eot');
+    src: url('alpha_echo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('alpha_echo-webfont.woff') format('woff'),
+         url('alpha_echo-webfont.ttf') format('truetype'),
+         url('alpha_echo-webfont.svg#alpha_echoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
